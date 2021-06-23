@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  tiny-host:
+    build: ./server
+    image: tiny-host:latest
+    container_name: tiny-host
+    volumes:
+      - ./html/:/usr/local/www/html/
+    ports:
+      - "80:80"
+      - "443:443"
