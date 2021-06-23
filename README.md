@@ -1,6 +1,10 @@
+[![Twitter: @DavidArayan](https://img.shields.io/badge/contact-DavidArayan-blue.svg?style=flat)](https://twitter.com/DavidArayan)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/f10e5a993dbf4cb5b1852232dcc1fadd)](https://www.codacy.com/gh/OvisTek/tiny-host/dashboard?utm_source=github.com&utm_medium=referral&utm_content=OvisTek/tiny-host&utm_campaign=Badge_Grade)
+[![License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat)](LICENSE)
+
 * * *
 
-This package uses [Docker](https://www.docker.com/) and [NodeJS](https://nodejs.org/) to launch a simple, no-fuss local HTTPS server on Port 443 that can be used for development and testing purposes.
+This repository uses [Docker](https://www.docker.com/) and [NodeJS](https://nodejs.org/) to launch a simple, no-fuss local HTTPS server for development and testing purposes of JavaScript/TypeScript projects.
 
 #### Getting Started
 
