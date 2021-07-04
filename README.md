@@ -2,7 +2,7 @@
   <img src="graphics/icon.png?raw=true" alt="OvisTek Logo" width="150">
 </h3>
 
-[![Twitter: @DavidArayan](https://img.shields.io/badge/contact-DavidArayan-blue.svg?style=flat)](https://twitter.com/DavidArayan)
+[![Twitter: @OvisTek](https://img.shields.io/badge/contact-OvisTek-blue.svg?style=flat)](https://twitter.com/OvisTek)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/f10e5a993dbf4cb5b1852232dcc1fadd)](https://www.codacy.com/gh/OvisTek/tiny-host/dashboard?utm_source=github.com&utm_medium=referral&utm_content=OvisTek/tiny-host&utm_campaign=Badge_Grade)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat)](LICENSE)
 
