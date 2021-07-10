@@ -10,7 +10,7 @@
 
 This repository uses [Docker](https://www.docker.com/) and [NodeJS](https://nodejs.org/) to launch a simple, no-fuss local HTTPS server for development and testing purposes of JavaScript/TypeScript projects.
 
-#### Getting Started
+### _**Getting Started**_
 
 1.  Install [Docker](https://www.docker.com/) for your machine
 2.  Place your HTML/JS files inside the _html_ folder
