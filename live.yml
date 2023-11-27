@@ -8,5 +8,4 @@ services:
     volumes:
       - ./html/:/usr/local/www/html/
     ports:
-      - "80:80"
-      - "443:443"
+      - "3300:443"

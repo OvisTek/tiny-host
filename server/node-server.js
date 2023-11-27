@@ -18,22 +18,7 @@ app.use((req, res, next) => {
 	return next();
 });
 
-const root = path.join(__dirname, "/html");
-
-app.use((req, res, next) => {
-	const file = (req.url.endsWith(".html") ? req.url : (req.url.endsWith(".js") ? req.url : req.url + ".js"));
-
-	fs.stat(path.join(root, file),
-		(err, _) => {
-			if (!err) {
-				res.sendFile(file, { root });
-			}
-			else {
-				next();
-			}
-		}
-	);
-});
+app.use(express.static('html'));
 
 httpsLocalhost.getCerts().then((certs) => {
 	https.createServer(certs, app).listen(httpPort, () => {
